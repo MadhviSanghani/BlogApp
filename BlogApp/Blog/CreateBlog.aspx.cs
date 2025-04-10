@@ -41,6 +41,11 @@ namespace BlogApp.Blog
             lblMessage.Text = "Blog Created Successfully";
             con.Close();
             image.PostedFile.SaveAs(Server.MapPath("~/images/") + strImage);
+
+            txtCategory.Text = null;
+            txtAuthor.Text = null;
+            txtTitle.Text = null;
+            txtContent.Text = null;
         }
     }
 }
