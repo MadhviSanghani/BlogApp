@@ -15,6 +15,15 @@ namespace BlogApp.Blog
     {
 
         /// <summary>
+        /// txtCategory control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList txtCategory;
+
+        /// <summary>
         /// txtAuthor control.
         /// </summary>
         /// <remarks>
@@ -42,6 +51,15 @@ namespace BlogApp.Blog
         protected global::System.Web.UI.WebControls.TextBox txtContent;
 
         /// <summary>
+        /// image control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload image;
+
+        /// <summary>
         /// btnCreate control.
         /// </summary>
         /// <remarks>
@@ -49,5 +67,14 @@ namespace BlogApp.Blog
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCreate;
+
+        /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
     }
 }

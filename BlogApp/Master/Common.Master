@@ -42,7 +42,7 @@
             </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-            <div class="blockcode">
+            <div class="blockcode" style="border-top: 1px solid black;">
               <footer class="page-footer shadow bg-light">
                 <div class="d-flex flex-column mx-auto py-5" style="width: 80%">
                   <div class="d-flex flex-wrap justify-content-between">
